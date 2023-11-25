@@ -9,7 +9,7 @@ function App() {
   const [favouriteBots, setFavouriteBots] = useState([]);
 
   useEffect(() => {
-    const url = "http://localhost:3000/bots";
+    const url = "https://bot-data-1lv2.onrender.com/bots";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setBotsArray(data));

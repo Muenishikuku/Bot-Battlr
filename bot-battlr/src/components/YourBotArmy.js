@@ -17,7 +17,7 @@ function YourBotArmy({ favouriteBots, setFavouriteBots }) {
   }
 
   function deleteMethod(bot) {
-    const url = `http://localhost:3000/bots/${bot.id}`;
+    const url = `https://bot-data-1lv2.onrender.com/bots/${bot.id}`;
     const method = {
       method: 'DELETE',
     };

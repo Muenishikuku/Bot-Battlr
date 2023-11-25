@@ -21,7 +21,7 @@ function BotCollection({ botsArray, setBotsArray, favouriteBots, setFavouriteBot
 
   async function deleteBot(botToDelete) {
     try {
-      const url = `http://localhost:3000/bots/${botToDelete.id}`;
+      const url = `https://bot-data-1lv2.onrender.com/bots/${botToDelete.id}`;
       const method = {
         method: 'DELETE',
       };
